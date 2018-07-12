@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ae379ff-21fa-48ab-9419-259dfedaa83c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tw/core/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tw/core/GameTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -15,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tdd_java_base$All_in_tdd_java_base_test.ic" NAME="All in tdd-java-base_test Coverage Results" MODIFIED="1531403559471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tdd_java_base$All_in_tdd_java_base_test.ic" NAME="All in tdd-java-base_test Coverage Results" MODIFIED="1531410418655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/tdd_java_base$tw_core_in_tdd_java_base_test.ic" NAME="tw.core in tdd-java-base_test Coverage Results" MODIFIED="1531386688777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tw.core.*</FILTER>
     </SUITE>
@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AnswerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnswerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+            <state relative-caret-position="-7">
+              <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#205#206#0" expanded="true" />
@@ -44,8 +44,8 @@
       <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="-7">
+              <caret line="29" column="64" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="64" />
               <folding>
                 <element signature="e#384#385#0" expanded="true" />
                 <element signature="e#422#423#0" expanded="true" />
@@ -58,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="478">
+              <caret line="105" column="51" selection-start-line="105" selection-start-column="51" selection-end-line="105" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -70,27 +70,26 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+            <state relative-caret-position="412">
+              <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="28" />
               <folding>
+                <element signature="e#1344#1345#0" expanded="true" />
+                <element signature="e#1379#1380#0" expanded="true" />
+                <element signature="e#1417#1418#0" expanded="true" />
                 <element signature="e#1475#1476#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Record.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/Record.java">
+      <file leaf-file-name="GuessResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/GuessResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="168">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -415,6 +414,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/tw/core/Answer.java" />
         <option value="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tw/core/GameTest.java" />
       </list>
     </option>
   </component>
@@ -503,6 +503,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -537,7 +538,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_both_current_num_and_include_only_num1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.should_game_results" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -548,8 +549,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_check_successfully_when_given_a_list_with_both_current_num_and_include_only_num1" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.GameTest" />
+      <option name="METHOD_NAME" value="should_game_results" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -560,7 +561,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_current_num" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.should_get_the_continue_status_when_guess_input_is_not_exactly_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -571,8 +572,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_check_successfully_when_given_a_list_with_current_num" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.GameTest" />
+      <option name="METHOD_NAME" value="should_get_the_continue_status_when_guess_input_is_not_exactly_correct" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -583,7 +584,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_include_only_num" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.should_get_the_fail_status_when_guess_count_over_6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -594,8 +595,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_check_successfully_when_given_a_list_with_include_only_num" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.GameTest" />
+      <option name="METHOD_NAME" value="should_get_the_fail_status_when_guess_count_over_6" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -606,7 +607,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_none_current_num_and_include_only_num" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.should_get_the_success_status_when_guess_input_is_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -617,8 +618,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_check_successfully_when_given_a_list_with_none_current_num_and_include_only_num" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.GameTest" />
+      <option name="METHOD_NAME" value="should_get_the_success_status_when_guess_input_is_correct" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -668,19 +669,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AnswerTest.should_check_successfully_when_given_a_list_with_include_only_num" />
-      <item itemvalue="JUnit.AnswerTest.should_check_successfully_when_given_a_list_with_current_num" />
+      <item itemvalue="JUnit.GameTest.should_get_the_fail_status_when_guess_count_over_6" />
+      <item itemvalue="JUnit.GameTest.should_get_the_success_status_when_guess_input_is_correct" />
+      <item itemvalue="JUnit.GameTest.should_get_the_continue_status_when_guess_input_is_not_exactly_correct" />
       <item itemvalue="JUnit.All in tdd-java-base_test" />
-      <item itemvalue="JUnit.AnswerTest.should_check_successfully_when_given_a_list_with_both_current_num_and_include_only_num1" />
-      <item itemvalue="JUnit.AnswerTest.should_check_successfully_when_given_a_list_with_none_current_num_and_include_only_num" />
+      <item itemvalue="JUnit.GameTest.should_game_results" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in tdd-java-base_test" />
-        <item itemvalue="JUnit.AnswerTest.should_check_successfully_when_given_a_list_with_none_current_num_and_include_only_num" />
-        <item itemvalue="JUnit.AnswerTest.should_check_successfully_when_given_a_list_with_both_current_num_and_include_only_num1" />
-        <item itemvalue="JUnit.AnswerTest.should_check_successfully_when_given_a_list_with_include_only_num" />
-        <item itemvalue="JUnit.AnswerTest.should_check_successfully_when_given_a_list_with_current_num" />
+        <item itemvalue="JUnit.GameTest.should_game_results" />
+        <item itemvalue="JUnit.GameTest.should_get_the_fail_status_when_guess_count_over_6" />
+        <item itemvalue="JUnit.GameTest.should_get_the_continue_status_when_guess_input_is_not_exactly_correct" />
+        <item itemvalue="JUnit.GameTest.should_get_the_success_status_when_guess_input_is_correct" />
       </list>
     </recent_temporary>
   </component>
@@ -698,35 +699,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnswerTest_should_check_successfully_when_given_a_list_with_include_only_num - 2018.07.12 at 21h 16m 50s.xml">
-      <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_include_only_num" configurationId="JUnit" />
+    <history-entry file="GameTest_should_get_the_continue_status_when_guess_input_is_not_exactly_correct - 2018.07.12 at 23h 25m 22s.xml">
+      <configuration name="GameTest.should_get_the_continue_status_when_guess_input_is_not_exactly_correct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_check_successfully_when_given_a_list_with_include_only_num - 2018.07.12 at 21h 18m 41s.xml">
-      <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_include_only_num" configurationId="JUnit" />
+    <history-entry file="GameTest_should_get_the_continue_status_when_guess_input_is_not_exactly_correct - 2018.07.12 at 23h 25m 28s.xml">
+      <configuration name="GameTest.should_get_the_continue_status_when_guess_input_is_not_exactly_correct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_check_successfully_when_given_a_list_with_include_only_num - 2018.07.12 at 21h 20m 00s.xml">
-      <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_include_only_num" configurationId="JUnit" />
+    <history-entry file="GameTest_should_get_the_fail_status_when_guess_count_over_6 - 2018.07.12 at 23h 25m 55s.xml">
+      <configuration name="GameTest.should_get_the_fail_status_when_guess_count_over_6" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_check_successfully_when_given_a_list_with_current_num - 2018.07.12 at 21h 20m 48s.xml">
-      <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_current_num" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_fail_validate_when_given_a_not_validate_list - 2018.07.12 at 21h 35m 47s.xml">
-      <configuration name="AnswerTest.should_fail_validate_when_given_a_not_validate_list" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_fail_validate_when_given_a_not_validate_list - 2018.07.12 at 21h 36m 12s.xml">
-      <configuration name="AnswerTest.should_fail_validate_when_given_a_not_validate_list" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_check_successfully_when_given_a_list_with_current_num - 2018.07.12 at 21h 37m 11s.xml">
-      <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_current_num" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_check_successfully_when_given_a_list_with_include_only_num - 2018.07.12 at 21h 37m 17s.xml">
-      <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_include_only_num" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_tdd-java-base_test - 2018.07.12 at 21h 37m 36s.xml">
+    <history-entry file="All_in_tdd-java-base_test - 2018.07.12 at 23h 26m 37s.xml">
       <configuration name="All in tdd-java-base_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_check_successfully_when_given_a_list_with_include_only_num - 2018.07.12 at 21h 47m 02s.xml">
-      <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_include_only_num" configurationId="JUnit" />
+    <history-entry file="GameTest_should_game_results - 2018.07.12 at 23h 36m 32s.xml">
+      <configuration name="GameTest.should_game_results" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_should_game_results - 2018.07.12 at 23h 36m 57s.xml">
+      <configuration name="GameTest.should_game_results" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_should_game_results - 2018.07.12 at 23h 41m 03s.xml">
+      <configuration name="GameTest.should_game_results" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_should_game_results - 2018.07.12 at 23h 41m 54s.xml">
+      <configuration name="GameTest.should_game_results" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_should_game_results - 2018.07.12 at 23h 43m 31s.xml">
+      <configuration name="GameTest.should_game_results" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_should_game_results - 2018.07.12 at 23h 44m 37s.xml">
+      <configuration name="GameTest.should_game_results" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -769,7 +770,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -805,13 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tw/controllers/GameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/validator/InputValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -837,16 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-          <folding>
-            <element signature="e#1475#1476#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/Record.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -862,17 +846,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="-7">
+          <caret line="29" column="64" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="64" />
           <folding>
             <element signature="e#384#385#0" expanded="true" />
             <element signature="e#422#423#0" expanded="true" />
@@ -886,13 +863,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+        <state relative-caret-position="-7">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/controllers/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/GameStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/GuessResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="105" column="51" selection-start-line="105" selection-start-column="51" selection-end-line="105" selection-end-column="51" />
         </state>
       </provider>
     </entry>

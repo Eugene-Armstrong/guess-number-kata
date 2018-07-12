@@ -4,11 +4,17 @@ package tw.core;/*
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import tw.core.exception.AnswerFormatIncorrectException;
+import tw.core.exception.OutOfGuessCountException;
 import tw.core.generator.AnswerGenerator;
 import tw.core.model.GuessResult;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
+import static org.junit.jupiter.api.Assertions.fail;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -24,18 +30,79 @@ public class GameTest {
         game = new Game(answerGenerator);
     }
 
-
     @Test
     public void should_get_the_success_status_when_guess_input_is_correct() throws Exception {
-
         //given
 //        excuteSuccessGuess();
         GuessResult guess = game.guess(Answer.createAnswer("1 2 3 4"));
         //when
         //then
         assertThat(guess.getResult(), is("4A0B"));
-
+        assertThat(game.checkStatus(), is("success"));
     }
 
+    @Test
+    public void should_get_the_continue_status_when_guess_input_is_not_exactly_correct() throws Exception {
+        GuessResult guess = game.guess(Answer.createAnswer("1 2 4 3"));
+        assertThat(guess.getResult(), is("2A2B"));
+        assertThat(game.checkStatus(), is("continue"));
+    }
 
+    @Test
+    public void should_get_the_fail_status_when_guess_input_is_not_correct() throws Exception {
+        try {
+            GuessResult guess = game.guess(Answer.createAnswer("0 0 0 0 0"));
+        } catch (OutOfGuessCountException exception) {
+            fail("Validate should pass!");
+        }
+    }
+
+    @Test
+    public void should_fail_when_guess_count_over_6() throws Exception {
+        for(int i=0;i<6;i++){
+            game.guess(Answer.createAnswer("0 0 0 0"));
+        }
+        try {
+            game.guess(Answer.createAnswer("1 2 3 4"));
+            fail("Guess count can't over 6!");
+        } catch (OutOfGuessCountException exception) {
+        }
+//        assertThat(record.getValue(),is("4A0B"));
+    }
+
+    @Test
+    public void should_not_fail_when_guess_count_not_over_6() throws Exception {
+        for(int i=0;i<5;i++){
+            game.guess(Answer.createAnswer("0 0 0 0"));
+        }
+        try {
+            game.guess(Answer.createAnswer("1 2 3 4"));
+        } catch (OutOfGuessCountException exception) {
+            fail("Guess count can't over 6!");
+        }
+//        assertThat(record.getValue(),is("4A0B"));
+    }
+
+    @Test
+    public void should_get_the_fail_status_when_guess_count_over_6() throws Exception {
+        for(int i=0;i<6;i++){
+            game.guess(Answer.createAnswer("0 0 0 0"));
+        }
+        try {
+            game.guess(Answer.createAnswer("1 2 3 4"));
+            fail("Guess count can't over 6!");
+        } catch (OutOfGuessCountException exception) {
+            assertThat(game.checkStatus(),is("fail"));
+        }
+    }
+
+    @Test
+    public void should_game_results() throws Exception {
+        game.guess(Answer.createAnswer("1 2 3 4"));
+        GuessResult guessResult = new GuessResult("4A0B", actualAnswer);
+        List<GuessResult> guessResults = new ArrayList();
+        guessResults.add(guessResult);
+        assertThat(game.guessHistory().get(0).getResult(),
+                is(guessResults.get(0).getResult()));
+    }
 }
