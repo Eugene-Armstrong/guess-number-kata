@@ -2,28 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ae379ff-21fa-48ab-9419-259dfedaa83c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_inject_guice_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/tdd-java-base_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/tdd-java-base_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/tdd_java_base$All_in_tdd_java_base_test.ic" NAME="All in tdd-java-base_test Coverage Results" MODIFIED="1531386661963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tdd_java_base$All_in_tdd_java_base_test.ic" NAME="All in tdd-java-base_test Coverage Results" MODIFIED="1531403559471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/tdd_java_base$tw_core_in_tdd_java_base_test.ic" NAME="tw.core in tdd-java-base_test Coverage Results" MODIFIED="1531386688777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tw.core.*</FILTER>
     </SUITE>
@@ -52,15 +30,12 @@
       <file leaf-file-name="AnswerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="558">
+              <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#205#206#0" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
-                <element signature="method#should_return_right_answer_when_given_a_validate_input_str#0;class#AnswerTest#0" />
-                <element signature="method#should_pass_validate_when_given_a_validate_list#0;class#AnswerTest#0" />
-                <element signature="method#should_fail_validate_when_given_a_not_validate_list#0;class#AnswerTest#0" />
               </folding>
             </state>
           </provider>
@@ -69,8 +44,8 @@
       <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="476">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="e#384#385#0" expanded="true" />
                 <element signature="e#422#423#0" expanded="true" />
@@ -83,11 +58,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+              <folding>
+                <element signature="e#1475#1476#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Record.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/Record.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+            <state relative-caret-position="306">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="38" />
               <folding>
                 <element signature="e#169#170#0" expanded="true" />
                 <element signature="e#239#240#0" expanded="true" />
@@ -423,8 +419,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="191" />
-    <option name="y" value="40" />
+    <option name="x" value="-33" />
+    <option name="y" value="241" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -520,24 +516,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnswerTest.should_fail_validate_when_given_a_not_validate_list">
+  <component name="RunManager" selected="JUnit.All in tdd-java-base_test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="AnswerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in tdd-java-base_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tw.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -547,7 +537,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_fail_validate_when_given_a_not_validate_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_both_current_num_and_include_only_num1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -559,7 +549,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_fail_validate_when_given_a_not_validate_list" />
+      <option name="METHOD_NAME" value="should_check_successfully_when_given_a_list_with_both_current_num_and_include_only_num1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -570,7 +560,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_pass_validate_when_given_a_validate_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_current_num" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -582,7 +572,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_pass_validate_when_given_a_validate_list" />
+      <option name="METHOD_NAME" value="should_check_successfully_when_given_a_list_with_current_num" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -593,7 +583,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_pass_validate_when_given_validate_num" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_include_only_num" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -605,7 +595,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_pass_validate_when_given_validate_num" />
+      <option name="METHOD_NAME" value="should_check_successfully_when_given_a_list_with_include_only_num" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -616,7 +606,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_return_right_answer_when_given_a_validate_input_str" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_none_current_num_and_include_only_num" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -628,7 +618,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_return_right_answer_when_given_a_validate_input_str" />
+      <option name="METHOD_NAME" value="should_check_successfully_when_given_a_list_with_none_current_num_and_include_only_num" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -678,19 +668,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AnswerTest.should_pass_validate_when_given_validate_num" />
-      <item itemvalue="JUnit.AnswerTest.should_fail_validate_when_given_a_not_validate_list" />
-      <item itemvalue="JUnit.AnswerTest.should_pass_validate_when_given_a_validate_list" />
-      <item itemvalue="JUnit.AnswerTest" />
-      <item itemvalue="JUnit.AnswerTest.should_return_right_answer_when_given_a_validate_input_str" />
+      <item itemvalue="JUnit.AnswerTest.should_check_successfully_when_given_a_list_with_include_only_num" />
+      <item itemvalue="JUnit.AnswerTest.should_check_successfully_when_given_a_list_with_current_num" />
+      <item itemvalue="JUnit.All in tdd-java-base_test" />
+      <item itemvalue="JUnit.AnswerTest.should_check_successfully_when_given_a_list_with_both_current_num_and_include_only_num1" />
+      <item itemvalue="JUnit.AnswerTest.should_check_successfully_when_given_a_list_with_none_current_num_and_include_only_num" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AnswerTest.should_fail_validate_when_given_a_not_validate_list" />
-        <item itemvalue="JUnit.AnswerTest.should_return_right_answer_when_given_a_validate_input_str" />
-        <item itemvalue="JUnit.AnswerTest.should_pass_validate_when_given_a_validate_list" />
-        <item itemvalue="JUnit.AnswerTest" />
-        <item itemvalue="JUnit.AnswerTest.should_pass_validate_when_given_validate_num" />
+        <item itemvalue="JUnit.All in tdd-java-base_test" />
+        <item itemvalue="JUnit.AnswerTest.should_check_successfully_when_given_a_list_with_none_current_num_and_include_only_num" />
+        <item itemvalue="JUnit.AnswerTest.should_check_successfully_when_given_a_list_with_both_current_num_and_include_only_num1" />
+        <item itemvalue="JUnit.AnswerTest.should_check_successfully_when_given_a_list_with_include_only_num" />
+        <item itemvalue="JUnit.AnswerTest.should_check_successfully_when_given_a_list_with_current_num" />
       </list>
     </recent_temporary>
   </component>
@@ -708,35 +698,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnswerTest_should_pass_validate_when_given_a_validate_list - 2018.07.12 at 19h 30m 27s.xml">
-      <configuration name="AnswerTest.should_pass_validate_when_given_a_validate_list" configurationId="JUnit" />
+    <history-entry file="AnswerTest_should_check_successfully_when_given_a_list_with_include_only_num - 2018.07.12 at 21h 16m 50s.xml">
+      <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_include_only_num" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_fail_validate_when_given_a_not_validate_list - 2018.07.12 at 19h 30m 30s.xml">
+    <history-entry file="AnswerTest_should_check_successfully_when_given_a_list_with_include_only_num - 2018.07.12 at 21h 18m 41s.xml">
+      <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_include_only_num" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_check_successfully_when_given_a_list_with_include_only_num - 2018.07.12 at 21h 20m 00s.xml">
+      <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_include_only_num" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_check_successfully_when_given_a_list_with_current_num - 2018.07.12 at 21h 20m 48s.xml">
+      <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_current_num" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_fail_validate_when_given_a_not_validate_list - 2018.07.12 at 21h 35m 47s.xml">
       <configuration name="AnswerTest.should_fail_validate_when_given_a_not_validate_list" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AnswerTest_should_return_right_answer_when_given_a_validate_input_str - 2018.07.12 at 19h 31m 36s.xml">
-      <configuration name="AnswerTest.should_return_right_answer_when_given_a_validate_input_str" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_return_right_answer_when_given_a_validate_input_str - 2018.07.12 at 19h 32m 00s.xml">
-      <configuration name="AnswerTest.should_return_right_answer_when_given_a_validate_input_str" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_return_right_answer_when_given_a_validate_input_str - 2018.07.12 at 19h 40m 27s.xml">
-      <configuration name="AnswerTest.should_return_right_answer_when_given_a_validate_input_str" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_return_right_answer_when_given_a_validate_input_str - 2018.07.12 at 19h 40m 54s.xml">
-      <configuration name="AnswerTest.should_return_right_answer_when_given_a_validate_input_str" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_return_right_answer_when_given_a_validate_input_str - 2018.07.12 at 19h 41m 46s.xml">
-      <configuration name="AnswerTest.should_return_right_answer_when_given_a_validate_input_str" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_return_right_answer_when_given_a_validate_input_str - 2018.07.12 at 19h 43m 30s.xml">
-      <configuration name="AnswerTest.should_return_right_answer_when_given_a_validate_input_str" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_return_right_answer_when_given_a_validate_input_str - 2018.07.12 at 19h 44m 38s.xml">
-      <configuration name="AnswerTest.should_return_right_answer_when_given_a_validate_input_str" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_fail_validate_when_given_a_not_validate_list - 2018.07.12 at 20h 13m 17s.xml">
+    <history-entry file="AnswerTest_should_fail_validate_when_given_a_not_validate_list - 2018.07.12 at 21h 36m 12s.xml">
       <configuration name="AnswerTest.should_fail_validate_when_given_a_not_validate_list" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_check_successfully_when_given_a_list_with_current_num - 2018.07.12 at 21h 37m 11s.xml">
+      <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_current_num" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_check_successfully_when_given_a_list_with_include_only_num - 2018.07.12 at 21h 37m 17s.xml">
+      <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_include_only_num" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tdd-java-base_test - 2018.07.12 at 21h 37m 36s.xml">
+      <configuration name="All in tdd-java-base_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_check_successfully_when_given_a_list_with_include_only_num - 2018.07.12 at 21h 47m 02s.xml">
+      <configuration name="AnswerTest.should_check_successfully_when_given_a_list_with_include_only_num" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -751,13 +741,13 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24760893" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24760893" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.203125" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.203125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.203125" />
       <window_info anchor="bottom" id="Build" weight="0.32943678" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -847,16 +837,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="544">
           <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
           <folding>
             <element signature="e#1475#1476#0" expanded="true" />
@@ -866,8 +849,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/Record.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+        <state relative-caret-position="306">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="38" />
           <folding>
             <element signature="e#169#170#0" expanded="true" />
             <element signature="e#239#240#0" expanded="true" />
@@ -879,10 +862,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="476">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="e#384#385#0" expanded="true" />
             <element signature="e#422#423#0" expanded="true" />
@@ -896,15 +886,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="558">
+          <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
-            <element signature="method#should_return_right_answer_when_given_a_validate_input_str#0;class#AnswerTest#0" />
-            <element signature="method#should_pass_validate_when_given_a_validate_list#0;class#AnswerTest#0" />
-            <element signature="method#should_fail_validate_when_given_a_not_validate_list#0;class#AnswerTest#0" />
           </folding>
         </state>
       </provider>
